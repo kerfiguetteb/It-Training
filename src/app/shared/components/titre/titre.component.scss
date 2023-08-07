@@ -1,0 +1,19 @@
+.img-fluid{
+    height: 220px;
+}
+.transition-title {
+    font-size: 3vw;
+    font-weight: bold;
+    white-space: nowrap; 
+    overflow: hidden; 
+    animation:  slideIn 5s steps(160);
+  }
+  
+  @keyframes slideIn {
+    0% {
+        width: 0;
+      }
+      100% {
+        width: 100%;
+      }
+}  
