@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class FormationComponent {
 
-  titre = "nos formations"
+  titre = "Nos formations en Informatique "
 
 }

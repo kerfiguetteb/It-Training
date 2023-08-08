@@ -1,13 +1,3 @@
-.list-group{
-    border: 1px solid #dee2e6;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-.formation-title {
-    font-size: 18px;
-    font-weight: bold;
-    min-height: 19px;
-}
 
 .bloc-titre{
     background-color: #a6c9c9;
@@ -18,4 +8,15 @@
 .bloc-text{
     border-bottom: 5px solid #6a8f66;
     padding-bottom: 55px;
+}
+
+.search-btn{
+    border-radius: 50%;
+    margin-left: 15px;
+    border: 0px;
+    background-color:#829298 ;
+}
+
+.search-btn:hover{
+    background-color: #6a8f66;
 }
