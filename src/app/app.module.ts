@@ -18,6 +18,7 @@ import { RechercheComponent } from './shared/components/recherche/recherche.comp
 import { TitreComponent } from './shared/components/titre/titre.component';
 import { FormationComponent } from './formations/formation/formation.component';
 import { FormationsComponent } from './formations/formations.component';
+import { CardComponent } from './formations/formation/card/card.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { FormationsComponent } from './formations/formations.component';
     RechercheComponent,
     TitreComponent,
     FormationComponent,
-    FormationsComponent
+    FormationsComponent,
+    CardComponent,
   ],
   imports: [
     BrowserModule,
